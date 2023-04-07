@@ -1,4 +1,4 @@
-//Kullanılacak "Kalıtım" için tanımlanan bir base abstract(özellik) class'ı
+//Kullanılacak "Kalıtım" için tanımlanan bir base class
 public class MemberInfo {
     String name;
     String surname;
