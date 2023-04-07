@@ -1,15 +1,7 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-/*
-echo "# vizeProjesi_Bil122" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Eymen179/vizeProjesi_Bil122.git
-git push -u origin main
-*/
+
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in); //Aşağıda kullanılacak işlem seçimleri için "Scanner" tanımlanır.
