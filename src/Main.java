@@ -59,8 +59,19 @@ public class Main {
                 //Seçiildiğinde çalışan kod durdurulur ve sistemden çıkış yapılır.
                 case '4' -> {
                     System.out.println("----------------------------------------------");
-                    System.out.println("Sistemden çıkış yapılmıştır.");
-                    System.out.println("----------------------------------------------");
+                    System.out.println("Çıkmak istediğinizden Emin misiniz?(Evet-1, Hayır-2)");
+                    System.out.println("Eğer çıkarsanız listelerdeki ve dosyadaki veriler kod tekrar çalıştığında silinecek.");
+                    System.out.print("==> ");
+                    process3 = s.next().charAt(0);
+                    if(process3=='1'){
+                        System.out.println("----------------------------------------------");
+                        System.out.println("Sistemden çıkış yapılmıştır.");
+                        System.out.println("----------------------------------------------");
+                    }else if(process3=='2'){
+                        continue;
+                    }else{
+                        System.out.println("Hatalı giriş");
+                    }
                 }
                 //"case" bölümlerinde belirtilen değerler dışında değer yazılırsa çalışacak mesaj
                 default -> System.out.println("Hatalı giriş!! Tekrar Deneyin!");
