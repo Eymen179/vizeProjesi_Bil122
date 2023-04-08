@@ -11,7 +11,7 @@ public class Main {
         ArrayList<String> member = new ArrayList<>();
         ArrayList<String> everyMember = new ArrayList<>();
 
-        //Dosya yolu tanımlanır.
+        //Dosya yolu tanımlanır(Aşağıdaki dosya yolu benim bilgisayarıma ait).
         File f = new File("C:\\Users\\eymen\\Documents\\Java Çalışmaları\\vizeProject\\src\\Kullanıcılar.txt");
 
         txtSubjects(f);//Boş olan dosyaya 2 adet başlık tanımlamaya yarayan metot
